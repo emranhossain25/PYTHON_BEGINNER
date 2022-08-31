@@ -1,0 +1,17 @@
+b=set()
+print(type(b))
+#adding values to an empty
+b.add(4)
+b.add(5)
+b.add(6)
+b.add(7)
+b.add(8)
+b.add(9)
+b.add(10)
+
+print(b)
+print(len(b))
+b.remove(5)
+print(b)
+print(b.pop())
+print(b)
